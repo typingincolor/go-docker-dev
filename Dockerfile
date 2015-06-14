@@ -1,5 +1,5 @@
 FROM golang:wheezy
-MAINTAINER Michele Bertasi
+MAINTAINER Andrew Braithwaite <andrew@losd.info>
 
 ADD fs/ /
 
