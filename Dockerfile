@@ -27,6 +27,7 @@ RUN apt-get update                                                      && \
     go get golang.org/x/tools/cmd/vet                                   && \
     go get github.com/kisielk/errcheck                                  && \
     go get github.com/jstemmer/gotags                                   && \
+    go get github.com/tools/godep                                       && \
     mv /go/bin/* /usr/src/go/bin                                        && \
 # add dev user
     adduser dev --disabled-password --gecos ""                          && \
